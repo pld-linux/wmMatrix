@@ -9,7 +9,7 @@ Source0:	http://nis-www.lanl.gov/~mgh/WindowMaker/%{name}-%{version}.tar.gz
 URL:		http://nis-www.lanl.gov/~mgh/WindowMaker/DockApps.shtml
 Group:		X11/Window Managers/Tools
 BuildRequires:	XFree86-devel
-Requires:	xscreensaver	
+Requires:	xscreensaver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
