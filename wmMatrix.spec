@@ -11,7 +11,6 @@ BuildRequires:	XFree86-devel
 Requires:	xscreensaver	
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 A DockApp thats runs a slightly modified version of Jamie Zawinski's
