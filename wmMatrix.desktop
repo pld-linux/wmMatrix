@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=wmMatrix
 Comment=Matrix dockapp
-Comment[pl]=Aplet Matrixa
+Comment[pl]=Aplet Matriksa
 Exec=wmMatrix
 Terminal=false
 Type=Application
