@@ -2,7 +2,7 @@ Summary:	WindowMaker docklet with box in Matrix style
 Summary(pl):	Aplet dla WindowMakera wy¶wietlaj±cy spadaj±ce znaczki
 Name:		wmMatrix
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://nis-www.lanl.gov/~mgh/WindowMaker/%{name}-%{version}.tar.gz
@@ -28,7 +28,8 @@ znane z filmu Matrix.
 %{__make} clean
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags}" \
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
