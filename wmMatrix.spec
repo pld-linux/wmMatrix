@@ -4,14 +4,13 @@ Name:		wmMatrix
 Version:	0.2
 Release:	1
 License:	GPL
+Group:		X11/Window Managers/Tools
 Source0:	http://nis-www.lanl.gov/~mgh/WindowMaker/%{name}-%{version}.tar.gz
 # Source0-md5:	4e9f0c94e78ad65ea9a564fba5f7a187
 URL:		http://nis-www.lanl.gov/~mgh/WindowMaker/DockApps.shtml
-Group:		X11/Window Managers/Tools
 BuildRequires:	XFree86-devel
 Requires:	xscreensaver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 A DockApp thats runs a slightly modified version of Jamie Zawinski's
