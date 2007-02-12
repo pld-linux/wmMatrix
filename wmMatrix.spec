@@ -1,5 +1,5 @@
 Summary:	WindowMaker docklet with box in Matrix style
-Summary(pl.UTF-8):   Aplet dla WindowMakera wyświetlający spadające znaczki
+Summary(pl.UTF-8):	Aplet dla WindowMakera wyświetlający spadające znaczki
 Name:		wmMatrix
 Version:	0.2
 Release:	4
