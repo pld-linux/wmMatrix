@@ -1,5 +1,5 @@
 Summary:	WindowMaker docklet with box in Matrix style
-Summary(pl):	Aplet dla WindowMakera wy¶wietlaj±cy spadaj±ce znaczki
+Summary(pl.UTF-8):   Aplet dla WindowMakera wyÅ›wietlajÄ…cy spadajÄ…ce znaczki
 Name:		wmMatrix
 Version:	0.2
 Release:	4
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A DockApp thats runs a slightly modified version of Jamie Zawinski's
 xmatrix screenhack.
 
-%description -l pl
-Dokowalny aplet dla WindowMakera wy¶wietlaj±cy spadaj±ce znaczki,
+%description -l pl.UTF-8
+Dokowalny aplet dla WindowMakera wyÅ›wietlajÄ…cy spadajÄ…ce znaczki,
 znane z filmu Matrix.
 
 %prep
